@@ -1,0 +1,444 @@
+body{
+    /* background: url("/img/pattern.jpg"); */
+    /* background : url("/img/hon-logo.jpg" ); */
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HOME */
+.home{
+    margin-top: 100px;
+}
+.home .pop{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    padding: 20px;  
+    text-align: center;
+    font-style: italic;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.home a{
+    text-decoration: none;
+}
+.home .card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    border-color:transparent;
+    border-radius: 20px;
+    border-width: 20px;
+    margin-bottom: 30px;
+    /* opacity: 0.9; */
+}
+.home .card:hover{
+    background-color: rgb(241, 241, 241);
+    color: rgb(5, 5, 5);
+    border-color:transparent;
+    border-width: 20px;
+    margin-bottom: 30px;
+    /* opacity: 1; */
+}
+
+/* NAVBAR */
+.navbar{
+    padding: 0%;
+}
+.navbar .navbar-logo .logo{
+    max-height: 65px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.nav-admin .nav-item{
+    margin-left: 0px;
+    color: silver;
+}
+.nav-admin .nav-item .active{
+    color: white;
+    background-color: rgb(189, 8, 8);
+    padding: 20px;
+    display: block;
+    /* font-size: larger; */
+    /* font-weight: bold; */
+}
+
+.nav-admin .nav-item .dropdown-menu{
+    background-color: rgb(12, 12, 12);
+}
+
+.nav-admin .nav-item .dropdown-menu .dropdown-item{
+    background-color: rgb(12, 12, 12);
+    color: silver;
+    font-size: small;
+    align-items: center;
+}
+
+.nav-admin .nav-item .dropdown-menu :hover{
+    background-color: rgb(189, 8, 8);
+    color: white;
+}
+.nav-admin .nav-item .dropdown-menu .active{
+    color: white;
+    background-color: rgb(189, 8, 8);
+    padding: 5px 5px 5px 25px;
+    display: block;
+}
+
+
+.nav-admin .nav-item .active{
+    color: white;
+}
+.nav-admin .nav-item .nav-link:hover{
+    color: white;
+}
+
+/* RELEASE */
+.release{
+    margin-top: 100px;
+}
+
+.release .pop{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-color: transparent;
+    border-radius: 20px;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.release .card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    opacity: 1;
+    padding: 20px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+.img-release{
+    max-height: 150px;
+    max-width: auto;
+}
+.img-detail-talent{
+    max-height: 400px;
+}
+
+.release-detail .detail-desc{
+    text-align: justify;
+}
+
+.img-detail-artwork{
+    max-height: 250px;
+}
+
+/* CATEGORY */
+.category{
+    margin-top: 100px;
+}
+.category .pop{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    padding: 20px;  
+    text-align: center;
+    font-style: italic;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.category a{
+    text-decoration: none;
+}
+.category .card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    border-color:transparent;
+    border-radius: 20px;
+    border-width: 20px;
+    margin-bottom: 30px;
+    /* opacity: 0.9; */
+}
+.category .card:hover{
+    background-color: rgb(241, 241, 241);
+    color: rgb(5, 5, 5);
+    border-color:transparent;
+    border-width: 20px;
+    margin-bottom: 30px;
+    /* opacity: 1; */   
+}
+
+/* TALENT */
+.talent{
+    margin-top: 100px;
+}
+
+.talent .pop{
+    background-color: rgb(5, 5, 5);
+    opacity: 1;
+    color: rgb(189, 8, 8);
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+} 
+
+.talent .card{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    opacity: 1;
+}
+.img-talent{
+    max-height: 150px;
+}
+
+
+/* EVENt */
+.event{
+    margin-top: 100px;
+}
+.event .pop{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-color: transparent;
+    border-radius: 20px;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.event .card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    opacity: 1;
+    padding: 20px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.event .card-event{
+    background-color: rgb(5, 5, 5);
+}
+
+.img-event{
+    max-height: 250px;
+    width: auto;
+ }
+
+/* about */
+.about{
+    margin-top: 100px;
+}
+.about .pop{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-color: transparent;
+    border-radius: 20px;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.about .card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    opacity: 1;
+    padding: 20px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.table{
+    background-color: white;
+    color: rgb(5, 5, 5);
+}
+
+.btn-detail{
+    background-color: rgb(25, 85, 72);
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.btn-detail:hover{
+    background-color: rgb(18, 66, 56);
+    border-color: transparent;
+    color: white;
+}
+
+.btn-edit{
+    background-color: rgb(67, 152, 155);
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.btn-edit:hover{
+    background-color: rgb(46, 125, 128);
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.btn-delete{
+    background-color: rgb(189, 8, 8);
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.btn-delete:hover{
+    background-color: rgb(156, 7, 7);
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.btn-wow{
+    background-color: rgb(189, 8, 8);
+    color: white;
+    border-color: white;
+}
+
+.btn-wow:hover{
+    background-color: rgb(170, 8, 8);
+    border-color: white;
+    color: white;
+}
+
+.btn-logout{
+    background-color: transparent;
+    /* color: rgb(189, 8, 8); */
+    border-color: rgb(189, 8, 8);
+}
+.btn-logout:hover{
+    background-color: rgb(189, 8, 8);
+    padding: 15px;
+    border-color: rgb(189, 8, 8);
+    color: white;
+}
+
+.btn-modal{
+    background-color: transparent;
+    color: rgb(189, 8, 8);
+    border-color: rgb(189, 8, 8);
+    border-radius: 10px;
+}
+
+.btn-modal:hover{
+    background-color: rgb(189, 8, 8);
+    border-color: rgb(189, 8, 8);
+    color: white;
+}
+
+
+/* 
+.icon{
+    color: silver;
+}
+.icon:hover{
+    color: white;
+} */
+
+.modal .modal-tambah .modal-content{
+    background-color:rgb(5, 5, 5);
+    border-color: rgb(189, 8, 8);
+    border-width: 5px;
+    /* opacity: 0.7; */
+}
+
+.modal .modal-tambah .modal-content .modal-head{
+    color: silver;
+    font-style: oblique;
+}
+.modal .modal-tambah .modal-content .modal-head .hr-head{
+    background-color: silver;
+    height: 7px;
+}
+
+.form-admin{
+    background-color: rgb(36, 35, 35);
+    color: silver;
+}
+
+option::selection{
+    background-color: black ;
+    color: white;
+}
+
+.form-select{
+    background-color: white;
+    box-shadow:none;
+
+}
+.form-control:focus{
+    background-color: white;
+    box-shadow:none;
+    border-color: rgb(5, 5, 5);
+}
+
+.form-select:focus{
+    background-color: white;
+    box-shadow:none;
+    border-color: rgb(5, 5, 5);
+}
+
+.text-marah{
+    color: rgb(189, 8, 8);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.text-marah:hover{
+    color: rgb(155, 8, 8);
+}
+
+.text-hitam{
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.desc-category{
+    text-align: justify;
+    color: silver;
+}
+
+.borderred{
+    border-color: rgb(155, 8, 8);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+
+/* MERCH */
+.merch-photo{
+    max-height: 100px;
+}
+
+.merch-table{
+    vertical-align: middle;
+}
+
+.merch-photo-add{
+    max-height: 100px;
+    margin: 10px;
+}
+
+/* NEWS */
+
+.news-photo{
+    max-height: 100px;
+}
+
+
+
+

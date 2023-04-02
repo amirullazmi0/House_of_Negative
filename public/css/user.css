@@ -1,0 +1,231 @@
+/* NAVBAR */
+.navbar-user{
+    background-color: rgb(15, 15, 15);
+    padding: 20px;
+}
+
+.navbar-nav{
+    color: white;
+}
+
+.navbar-logo .logo{
+    max-height: 50px;
+}
+
+.nav-icon{
+    vertical-align: middle;
+    padding: 10px;
+    margin: 3px;
+}
+.nav-icon:hover{
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item .active{
+    background-color: rgb(54, 54, 54);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+.footer-top{
+    padding: 20px;
+    background-color: rgb(50, 49, 49);
+    color: white;
+}
+.footer-bot{
+    padding: 10px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+/* HOME */
+.user .card{
+    border: none;
+
+}
+.user .garis{
+    height: 7px;
+    background-color: rgb(15, 15, 15);
+}
+
+.user .sub{
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.user .sub1 {
+    color: rgb(224, 40, 40);
+}   
+
+.user .sub-release{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.user .sub-merch{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.user .release{
+    margin-bottom: 30px;
+}
+
+.text-excerpt{
+    text-align: justify;
+}
+
+.icon{
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+
+.icon:hover{    
+    color: rgb(224, 40, 40);
+}
+
+.text-talent{
+    color: rgb(15, 15, 15);
+    text-transform: uppercase;
+}
+.text-talent:hover{
+    color: rgb(15, 15, 15);
+    text-transform: uppercase;
+}
+
+.card-head{
+    position: relative;
+}
+.title-head{
+    position: absolute;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+.carousel-item{
+    max-height: 270px;
+}
+
+.home-merch{
+    max-height: 220px;
+    /* border-color: rgb(50, 49, 49);
+    border-style:solid;
+    border-width: 1px; */
+}
+
+.img-home-merch{
+    max-height: 200px;
+}
+
+.text-excerpt{
+    text-align: justify;
+}
+
+
+/* DETAIL */
+.detail-img{
+    width: 100%;
+}
+.detail-name{
+    text-transform: uppercase;
+}
+.detail-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.detail-desc{
+    text-align: justify;
+    margin-bottom: 0px;
+}
+.detail-icon{
+    font-size: 50px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.detail-icon:hover{    
+    color: rgb(224, 40, 40);
+}
+.user .sub-detail{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.more-release{
+    color: rgb(224, 40, 40);
+    text-decoration: none;
+}
+
+.more-release:hover{
+    color: rgb(185, 29, 29);
+}
+
+/* EVENT */
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.con-event{
+  position: relative;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.con-event:hover .overlay {
+  opacity: 1;
+}
+/* MERCH */
+.img-merch{
+    max-height: auto;
+    width: 100%;
+    padding: 20px;
+    transition-duration: 0.7s;
+}
+.img-merch:hover{
+    max-height: auto;
+    width: 100%;
+    transition-duration: 0.7s;
+    padding: 0px;
+}
+
+.text-merch{
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.text-price{
+    color: rgb(224, 40, 40);
+    font-weight: bold;
+}
+
+
+
+
